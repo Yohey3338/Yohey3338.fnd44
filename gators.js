@@ -53,3 +53,18 @@ image.addEventListener("mouseout", function(){
   this.src="stPanda.jpg";
 }
 );
+
+
+const animals = ["🐊", "🐑", "🦁", "🐖", "🐂", "🐯", "🐉", "🐇", "🐋", "🐎", "🦒", "🐼", "🐵", "🤖","🦈","🐧", "🦓","🐨","🦄",]
+function getRandomInt(max){
+  return Math.floor(Math.random()*max);
+}
+
+const btn03 = document.getElementById("release02");
+const stage02 = document.getElementById("sea02");
+
+btn03.addEventListener("click",() => {
+  const randomIndex = getRandomInt(animals.length);
+  const result = animals[randomIndex];
+  stage02.innerText = result;
+})
