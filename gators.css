@@ -28,3 +28,19 @@ width: 300px;
 margin: 0 auto;
 background-color: rgba(247, 163, 247, 0.521);
 }
+
+
+.box05{
+width: 200px;
+height: 70px;
+margin: 0 auto;
+background-color: green;
+}
+
+
+.box06{
+width: 200px;
+margin: 0 auto;
+font-size: xxx-large;
+background-color: whitesmoke;
+}
